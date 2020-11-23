@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
       end
       inner += 1
     end
-    lows.push(lowest)
+    lows << lowest
     outer += 1
   end
   lowest
