@@ -11,8 +11,9 @@ def find_min_in_nested_arrays(src)
         lowest = src[outer][inner]
       end
       inner += 1
+      lows << lowest
     end
-    lows << lowest
+    
     outer += 1
   end
   lowest
